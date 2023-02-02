@@ -1,10 +1,13 @@
 html,
 body {
   min-width: 290px;
-  color: #4d4e53;
+    color: #bfd6b7;
   font-family: 'Open Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color:#092f12;
+  margin: 0;
 }
+
 
 #navbar {
   font-size: .9em;
@@ -14,20 +17,24 @@ body {
   left: 0px;
   width: 250px;
   height: 100%;
-  border-right: solid;
-  border-color: rgba(0, 22, 22, 0.4);
-  background-color: white;
+  border-right: 10px solid;
+  border-color: #021b00;
+  background-color: #184d24;
 }
 
-
+.navbar:hover{
+  background-color: #3b6437;
+}
 
  header{
-  background-color: #a4d4af;
+  background-color: #3b6437;
   margin-right: initial;
 }
 
+
+
 .topbar {
-    color: black;
+    color: #bfd6b7;
     text-align: center;
     font-size: 1em;
     font-weight: thin;
@@ -61,9 +68,16 @@ body {
 #navbar a {
   display: block;
   padding: 10px 30px;
-  color: #4d4e53;
+  color: #bfd6b7;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+h2 {
+  margin-right: initial;
+  color: #bfd6b7;
+
 }
 
 #main-doc {
@@ -83,6 +97,7 @@ section li {
 }
 
 .example-box {
+  color: #bfd6b7;
   font-size: smaller;
   display: flex;
   text-align: left;
@@ -90,7 +105,7 @@ section li {
   margin-right: 5%;
   word-break: normal;
   word-wrap: normal;
-  background-color: #f7f7f7;
+  background-color: #184d24;
   padding-top: 2px;
   padding-left: 10px;
   padding-bottom: 2px;
@@ -100,6 +115,7 @@ section li {
   }
 
   .examplebox2 {
+    color: #bfd6b7;
     max-width: fit-content;
     margin-left: 2.5%;
     font-size: smaller;
@@ -108,7 +124,7 @@ section li {
     position: center;
     word-break: normal;
     word-wrap: normal;
-    background-color: #f7f7f7;
+    background-color: #184d24;
     padding-top: 2px;
     padding-left: 10px;
     padding-bottom: 15px;
@@ -119,6 +135,19 @@ section li {
 
 p {
   text-align: justify;
+}
+
+a:link {
+  color:white;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover {
+  color: #3b6437;
+
 }
 
 .sammy {
@@ -148,7 +177,8 @@ figcaption {
   }
 
   #navbar {
-    background-color: white;
+    background-color: #184d24;
+    color: #b5ecaf;
     position: absolute;
     top: 0;
     padding: 0;
