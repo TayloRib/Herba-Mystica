@@ -26,29 +26,6 @@ body {
   background-color: #3b6437;
 }
 
- header{
-  background-color: #3b6437;
-  margin-right: initial;
-}
-
-
-
-.topbar {
-    color: #bfd6b7;
-    text-align: center;
-    font-size: 1em;
-    font-weight: thin;
-    position: static;
-    margin-left: 290px;
-}
-
-.herba-sprite {
-        display: inline-block;
-        height: 50px;
-        width: 50px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
 #navbar ul {
   height: 88%;
@@ -72,6 +49,30 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
+header{
+  background-color: #3b6437;
+  margin-right: initial;
+}
+
+
+
+.topbar {
+    color: #bfd6b7;
+    text-align: center;
+    font-size: 1em;
+    font-weight: thin;
+    position: static;
+    margin-left: 290px;
+}
+
+.herba-sprite {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 h2 {
@@ -169,11 +170,10 @@ figcaption {
   font-size: smaller;
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 480px) {
   /* For mobile phones: */
   #navbar ul {
-    border: 1px solid;
-    height: 207px;
+    height: 100%;
   }
 
   #navbar {
@@ -184,10 +184,9 @@ figcaption {
     padding: 0;
     margin: 0;
     width: 100%;
-    max-height: 275px;
+    max-height: 39%;
     border: none;
     z-index: 1;
-    border-bottom: 2px solid;
   }
 
   #main-doc {
@@ -195,6 +194,15 @@ figcaption {
     margin-left: 0px;
     margin-top: 270px;
   }
+
+  .table1, .table2{
+    font-size: 0;
+  }
+
+  .nomobile {
+    display:none;
+}
+
 }
 
 
