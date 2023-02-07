@@ -6,61 +6,43 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Herba Mystica Guide</title>
+    <title>Herba Mystica and Sandwiches</title>
   </head>
 
   <body>
+
+    <header class="nomobile">
+      <div class="topbar">
+      <img class="anniraid" src="./assets/header3.jpg" alt="a far long distance photo of Mesagoza in the backdrop of Paldea"> </img>
+      </div>   
+    </header> 
+
+    <header class="mobileonly">
+      <div class="topbarmobile">
+      <img class="anniraid" src="./assets/mobile_header.jpg" alt="a far long distance photo of Mesagoza in the backdrop of Paldea"> </img>
+      </div>   
+    </header> 
 
     <nav id="navbar" class="nomobile">
       <h3>Navigation</h3>
     <ul>
       <li class="navbar1"><a class="navbar" href="">Sandwich Recipies</a></li>
       <li class="navbar1"><a class="navbar" target="_blank" href="https://cecilbowen.github.io/pokemon-sandwich-simulator">Sandwich Simulator</a></li>
-      <li class="navbar1"><a class="navbar" href="">Ingredient Locator</a></li>
+      <li class="navbar1"><a class="navbar" href="#ingredients">Ingredient Locator</a></li>
       <li class="navbar1"><a class="navbar" target="_blank" href="https://pbs.twimg.com/media/FiwLoRtXoAE1BNw?format=jpg&name=medium">Shiny Sandwich Guide</a></li>
       <li class="navbar1"><a class="navbar" href="https://taylorib.github.io/five-star-raids/">5-star Raids</a></li>
       <li class="navbar2"><a class="navbar" href="https://taylorib.github.io/six-star-raids/">6-Star Raids</a></li>
     </ul>
+    <img class="pikapicnic" src="./assets/annihilape2.gif" />
   </nav>
 
-    <header class="nomobile">
-      <div class="topbar">
-      <h1>Herba Mystica Guide</h1>
-        <img class="herba-sprite" id="herba_sprite" src="./assets/Bitter_Herba_Mystica.png" alt="sprite of bitter herba mystica">
-        </img>
-        <img class="herba-sprite" id="herba_sprite" src="./assets/Salty_Herba_Mystica.png" alt="sprite of salty herba mystica">
-        </img>
-        <img class="herba-sprite" id="herba_sprite" src="./assets/Sour_Herba_Mystica.png" alt="sprite of sour herba mystica">
-        </img>
-        <img class="herba-sprite" id="herba_sprite" src="./assets/Spicy_Herba_Mystica.png" alt="sprite of spicy herba mystica">
-        </img>
-        <img class="herba-sprite" id="herba_sprite" src="./assets/Sweet_Herba_Mystica.png" alt="sprite of sweet herba mystica">
-        </img>
-      </div>
-    </header> 
-
-      <header class="mobileonly">
-        <div class="mobiletop">
-        <h1>Herba Mystica Guide</h1>
-          <img class="herba-sprite" id="herba_sprite" src="./assets/Bitter_Herba_Mystica.png" alt="sprite of bitter herba mystica">
-          </img>
-          <img class="herba-sprite" id="herba_sprite" src="./assets/Salty_Herba_Mystica.png" alt="sprite of salty herba mystica">
-          </img>
-          <img class="herba-sprite" id="herba_sprite" src="./assets/Sour_Herba_Mystica.png" alt="sprite of sour herba mystica">
-          </img>
-          <img class="herba-sprite" id="herba_sprite" src="./assets/Spicy_Herba_Mystica.png" alt="sprite of spicy herba mystica">
-          </img>
-          <img class="herba-sprite" id="herba_sprite" src="./assets/Sweet_Herba_Mystica.png" alt="sprite of sweet herba mystica">
-          </img>
-        </div>
-      </header>
 
       <div class="mobileonly">
         <table id="navtable">
           <tr style="height: 40px">
             <td><a class="navbar" href="">Sandwich Recipies</a></td>
             <td><a class="navbar" target="_blank" href="https://cecilbowen.github.io/pokemon-sandwich-simulator">Sandwich Simulator</a></td>
-            <td><a class="navbar" href="">Ingredient Locator</a></td>
+            <td><a class="navbar" href="#ingredients2">Ingredient Locator</a></td>
           </tr>
     
           <tr style="height: 40px">
@@ -72,81 +54,1146 @@
           </tr>
         </table>
       </div>
-
+    
+    <container class="nomobile">
     <main id="main-doc">
+      
+      <h1>Herba Mystica and Sandwich Powers</h1>
+
+      <h2>Herba Mystica</h2>
+      <hr/>
+
       <section>
-      <h2 class="testies">What is Herba Mystica?</h2>
       <p>Herba Mystica is a type of rare ingredient that can be added to a sandwich while picnicing in Pokémon Scarlet and Violet. What makes these ingredients so rare is that they can only be obtained by getting them as rewards for completing 5, 6, and 7 star Tera Raid Battles.</p> 
       <p>Additionally, you are not guaranteed an Herba Mystica as a reward for completing a raid and the drop rate is pretty low. The following guide will teach you how to farm Herba Mystica most efficiently.</p>
       </section>
 
       <section>
       <h2>Sandwiches</h2>
+      <hr/>
       <p>Sandwiches are craftable items in Pokémon Scarlet and Violet that, upon consumption, grant the player "Meal Powers" to increase the likelyhood of types of encounters when roaming Paldea.</p>
-      <p>There are currently 9 possible Meal Powers to obtain:</p>
+      <p><b>There are currently 9 possible Meal Powers to obtain:</b></p>
       
-      <div>
-        <ul class="example-box">
-        <li><b>Catching Power:</b> 
-          <p class="li-summary">Increases the catch rate in battle</p></li>
-        </ul>
-        <p></p>
-        <ul class="example-box"><li><b>Encounter Power:</b> 
-          <p class="li-summary">Increases the spawn rate for a type of wild pokémon</p></li>
-        </ul>
-        <p></p>
-        <ul class="example-box"><li><b>Exp. Point Power:</b> 
-          <p class="li-summary">Increases the experience recieved for defeating a type of wild Pokémon</p></li>
-        </ul>
-        <p></p>
-        <ul class="example-box"><li><b>Raid Power:</b> 
-          <p class="li-summary">Increases the drop rewards from Tera Raids</p></li>
-        </ul>
-        <p></p>
-        <ul class="example-box"><li><b>Humungo Power:</b> 
-          <p class="li-summary">Increases the chance of a large Pokémon spawning</p></li>
-        </ul>
-        <p></p>
-        <ul class="example-box"><li><b>Teensy Power:</b> 
-          <p class="li-summary">Increases the chance of a small Pokémon spawning</p></li>
-        </ul>
-        <p></p>
-        <ul class="example-box"><li><b>Sparkling Power:</b> 
-          <p class="li-summary">Increases the chance of a shiny pokémon spawning</p></li>
-        </ul>
-        <p></p>
-        <p></p>
-        <ul class="example-box"><li><b>Title Power:</b> 
-          <p class="li-summary">Increases the chance of a wild Pokémon having a mark</p></li>
-        </ul>
-        <p></p>
-        <ul class="example-box"><li><b>Egg Power:</b> 
-          <p class="li-summary">Increases spawn rate of Pokémon Eggs while picnicing and increases hatch rate for eggs outside of picnics</p></li>
-        </ul>
-      </div>
+        <table class="table3">
+          <thead>
+            <tr width="30%">
+              <td class="li-summary2"><b>Catching Power :</b></td>
+              <td class="li-summary2"><b>Exp. Point Power :</b></td>
+              <td class="li-summary2"><b>Raid Power :</b></td>
+            </tr>
+            <tr width="30%">
+              <td class="li-summary2">Increases the catch rate in battle</td>
+              <td class="li-summary2">Increases the exp. for defeating a wild Pokémon</td>
+              <td class="li-summary2">Increases the drop rewards from Tera Raids</td>
+            </tr>
+            <tr width="30%">
+              <td class="li-summary3">
+                <p class="tablep"><b>Level 1 :</b> +10% Chance</p>
+                <p class="tablep"><b>Level 2 :</b> +25% Chance</p>
+                <p class="tablep"><b>Level 3 :</b> +100% Chance</p>
+            </td>
+              <td class="li-summary3">
+                <p class="tablep"><b>Level 1 :</b> 10% Increase</p>
+                <p class="tablep"><b>Level 2 :</b> 30% Increase</p>
+                <p class="tablep"><b>Level 3 :</b> 50% Increase</p>
+            </td>
+              <td class="li-summary3">
+                  <p class="tablep"><b>Level 1 :</b> +1 Item</p>
+                  <p class="tablep"><b>Level 2 :</b> +2 Items</p>
+                  <p class="tablep"><b>Level 3 :</b> +3 Items</p>
+              </td>
+            </tr>
+        </thead>
+      </table>
 
-      <p>Meal powers come in three levels, each level increase also increases the likelihood that you will find that Power Type. </p>
-      <h3>For example - Raid Power:</h3>
+      <p><b>Additional Notes on Catching Power and Raid Power:</b></p>
+      <p>Catching Power adds an increased catch chance to catch a Pokémon. Please note that different balls and different pokemon have <a target="_blank" href="https://shinyhunter.club/tools/catch-calculator">different catch rates</a>.
+      </p>
+      <p>Raid Power item drops can <i>include</i> herba mystica but are <i>not guaranteed</i> to be herba mystica.</p>
 
-      <div>
-        <ul class="examplebox2"><li><b>Level 1:</b> one extra item drop</li>
-        </ul>
-        <p></p>
-        <ul class="examplebox2"><li><b>Level 2:</b> two extra item drop</li>
-        </ul>
-        <p></p>
-        <ul class="examplebox2"><li><b>level 3:</b> three extra item drop</li>
-        </ul>
-      </div>
-      <p>The only way to get your sandwich from level 2 to level 3 is by using Herba Mysticas. It may not seem like the effort is worth it at first, but a level 3 sandwich can make a tremendous difference if you're looking to complete your dex or hunt shiny pokémon.</p>
-      </section>
+        <table class="table3">
+          <thead>
+            <tr width="30%">
+              <td class="li-summary2"><b>Hummungo Power :</b></td>
+              <td class="li-summary2"><b>Teensy Power :</b></td>
+              <td class="li-summary2"><b>Sparkling Power :</b></td>
+            </tr>
+            <tr width="30%">
+              <td class="li-summary2">Increases the chance of spawning large pokémon</td>
+              <td class="li-summary2">Increases the chance of spawning small pokémon</td>
+              <td class="li-summary2">Increases the chance of a shiny pokémon spawning</td>
+            </tr>
+            <tr width="30%">
+              <td class="li-summary3">
+                <p class="tablep"><b>Level 1 :</b> Size 128-255</p>
+                <p class="tablep"><b>Level 2 :</b> Size 160-255</p>
+                <p class="tablep"><b>Level 3 :</b> Size 192-255</p>
+              </td>
+              <td class="li-summary3">
+                <p class="tablep"><b>Level 1 :</b> Size 0-127</p>
+                <p class="tablep"><b>Level 2 :</b> Size 0-95</p>
+                <p class="tablep"><b>Level 3 :</b> Size 0-63</p>
+              </td>
+              <td class="li-summary3">
+                  <p class="tablep"><b>Level 1 :</b> +1 Shiny Roll</p>
+                  <p class="tablep"><b>Level 2 :</b> +2 Shiny Roll</p>
+                  <p class="tablep"><b>Level 3 :</b> +3 Shiny Roll</p>
+              </td>
+            </tr>
+        </thead>
+      </table>
+
+      <p><b>Additional Notes on Hummungo and Teensy Power:</b></p>
+      <p>Hummungo and Teensy Power chances are based on a set of data that dictates the minimum and maximum size of a pokémon. The data range for any wild encounter is naturally 0-255 with a random chance of spawning somewhere in this data range. A sandwich with these powers decreases the set range of finding a pokémon towards either end of the data set.</p>
+      <p>Other than the cosmetic effect of having a larger or smaller pokémon, there are also titles, or marks, that can be unlocked for getting the smallest value for a pokémon size and the largest value of a pokémon size.</p>
+      
+      <table id="table4">
+      <thead>
+        <tr>
+        <td class="imagerow"><img class="titlepic" border-radius="40px" width="50%" src="./assets/title_location.jpg"></td>
+        <td class="imagerow"><img class="titlepic" border-radius="40px" width="100%" src="./assets/npc.jpg"></td>
+        </tr>
+        <tr>
+        <td class="imagerow">The location (in Mesagoza) that</td>
+        <td class="imagerow">The NPC that gives out Size Titles</td>
+        </tr>
+        <tr>
+          <td class="imagerow">you obtain Size Titles</td>
+        </tr>
+      </thead>
+      </table>
+
+      <p><b>Additional Notes on Sparkling Power:</b></p>
+      <p>Sparking power rolls can be confusing if you don't understand how shinys spawn in the overworld. The basic rates for a shiny at full odds are 1 in 4096.</p> 
+      <p>When a pokémon spawns near you an invisible wheel spins and if the needle lands on the shiny spot, the pokémon is shiny. To increase your odds, rather than removing the number of non-shiny spots on the wheel, the wheel stays at 4096 odds but respins, based on any boosts you have.</p>
+      <p>So for example, if you have a level 3 shiny sandwhich, it will respin, or reroll, the wheel 3 times giving you 3 additional chances for the spawn to be shiny, taking your odds to 1 in 1024.</p>
+
+      <table class="table3">
+        <thead>
+          <tr>
+            <td width="30%" class="li-summary2"><b>Title Power :</b>
+            <p>Increases the chance of a wild Pokémon having a mark</p>
+            </td>
+            <td width="30%" class="li-summary2"><b>Egg Power :</b>
+              <p>Increases spawn rate of Pokémon Eggs while picnicing and increases hatch rate for eggs outside of picnics</p>
+            </td>  
+            <td width="30%" class="li-summary2"><b>Encounter Power :</b>
+              <p>Increases the spawn rate for a type of wild pokémon</p>
+              </td>
+          </tr>
+      </thead>
+    </table>
+
+    <p><b>Additional Notes on Egg Power:</b></p>
+    <p>You can increase the hate rate for eggs even more by having a lead Pokémon in your party with the ability: Flame Body.</p>
+    <p>Flame Body reduces the steps required to hatch a pokemon by 50%.</p>
+    <p>Pokémon that can have Flame Body in Gen 9 are: Larvesta/Volcarona, Fletchinder/Talonflame, Carkol/Coalossal, and Charcadet.</p>
+    
+  </section>
+
+  <section>
+  <h2 id="ingredients">Sandwich Ingredients</h2>
+  <hr/>
+    <p>There are four different Stores that sell ingredients for sandwiches and they're located all over Paldea. There is one city, luckily, where you can find all of them: Levincia.</p>
+    <p>If you fly to the northern Pokémon Center your closest stores are Sure Cans and Aquiesta Supermarket. If you fly to the southern Pokémon Center you'll find Artisian Bakery and Deli Cioso.</p>
+    <p>Now that you know where to find the stores, you'll need to know where to get specific ingredients that can be used to craft the right sandwhich. The following guide will explain where to get all non-cosmetic sandwich ingredients and how to unlock them.</p>
+    <p>Please note that certain ingredients are only unlocked at these locations after a number of gym badges have been obtained.</p>
+
+    <table id="ingredienttable">
+        <caption class="artisan">Artisan Bakery</caption>
+        <thead>
+        <tr>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/butter.png" alt="butter"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/cheese.png" alt="cheese"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/creamcheese.png" alt="cream cheese"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/ham.png" alt="ham"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/jam.png" alt="jam"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/ketchup.png" alt="Ketchup"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/lettuce.png" alt="lettuce"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/marmalade.png" alt="marmalade"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/mayo.png" alt="Mayonaise"/></td>
+        </tr>
+
+        <tr>
+          <td class="ingdesc">Butter</td>
+          <td class="ingdesc">Cheese</td>
+          <td class="ingdesc">Cream Cheese</td>
+          <td class="ingdesc">Ham</td>
+          <td class="ingdesc">Jam</td>
+          <td class="ingdesc">Ketchup</td>
+          <td class="ingdesc">Lettuce</td>
+          <td class="ingdesc">Marmalade</td>
+          <td class="ingdesc">Mayo  </td>
+        </tr>
+
+        <tr>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+        </tr>
+
+        <tr>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/mustard.png" alt="mustard"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/oliveoil.png" alt="olive oil"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/onion.png" alt="onion"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/peanut.png" alt="peanut butter"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/pepper.png" alt="pepper"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/salt.png" alt="salt"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/cream.png" alt="whipped cream"/></td>
+          <td><img class="ingredient" width="90%" src="./assets/ingredients/yogurt.png" alt="yogurt"/></td>
+        </tr>
+
+        <tr>
+          <td class="ingdesc">Mustard</td>
+          <td class="ingdesc">Olive Oil</td>
+          <td class="ingdesc">Onion</td>
+          <td class="ingdesc">Peanut Butter</td>
+          <td class="ingdesc">Pepper</td>
+          <td class="ingdesc">Salt</td>
+          <td class="ingdesc">Whipped Cream</td>
+          <td class="ingdesc">Yogurt</td>
+        </tr>
+
+        <tr>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+        </tr>
+      </thead>
+    </table>
+
+    <table id="ingredienttable">
+      <caption class="aquiesta">Aquiesta Supermarket</caption>
+      <thead>
+      <tr>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/avacado.png" alt="avacado"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/basil.png" alt="basil"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/butter.png" alt="butter"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/cherrytomato.png" alt="cherry tomato"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/cheese.png" alt="cheese"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/chilli.png" alt="chili sauce"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/creamcheese.png" alt="cream cheese"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/cucumber.png" alt="cucumber"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/currypowder.png" alt="curry powder"/></td>
+      </tr>
+
+      <tr>
+        <td class="ingdesc">Avacado</td>
+        <td class="ingdesc">Basil</td>
+        <td class="ingdesc">Butter</td>
+        <td class="ingdesc">Cherry Tomato</td>
+        <td class="ingdesc">Cheese</td>
+        <td class="ingdesc">Chili Sauce</td>
+        <td class="ingdesc">Cream Cheese</td>
+        <td class="ingdesc">Cucumber</td>
+        <td class="ingdesc">*Curry Powder</td>
+      </tr>
+
+      <tr>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">1 Badge</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">1 Badge</td>
+        <td class="required">7 Badges</td>
+      </tr>
+
+      <tr>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/greenpep.png" alt="Green Pepper"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/ham.png" alt="Ham"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/horseradish.png" alt="Horse Radish"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/jam.png" alt="Jam"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/ketchup.png" alt="ketchup"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/klawfstick.png" alt="Klawf stick"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/lettuce.png" alt="lettuce"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/marmalade.png" alt="marmalade"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/mayo.png" alt="Mayonaise"/></td>
+      </tr>
+
+      <tr>
+        <td class="ingdesc">Green Pepper</td>
+        <td class="ingdesc">Ham</td>
+        <td class="ingdesc">*Horse Radish</td>
+        <td class="ingdesc">Jam</td>
+        <td class="ingdesc">Ketchup</td>
+        <td class="ingdesc">*Klawf Stick</td>
+        <td class="ingdesc">Lettuce</td>
+        <td class="ingdesc">Marmalade</td>
+        <td class="ingdesc">Mayonaise</td>
+      </tr>
+
+      <tr>
+        <td class="required">3 Badges</td>
+        <td class="required">No Req.</td>
+        <td class="required">6 Badges</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">8 Badges</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+      </tr>
+
+      <tr>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/mustard.png" alt="mustard"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/oliveoil.png" alt="oliveoil"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/onion.png" alt="onion"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/pickle.png" alt="pickle"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/peanut.png" alt="peanut butter"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/pepper.png" alt="pepper"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/redonion.png" alt="red onion"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/redpep.png" alt="red pepper"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/salt.png" alt="salt"/></td>
+      </tr>
+
+      <tr>
+        <td class="ingdesc">Mustard</td>
+        <td class="ingdesc">Olive Oil</td>
+        <td class="ingdesc">Onion</td>
+        <td class="ingdesc">Pickle</td>
+        <td class="ingdesc">Peanut Butter</td>
+        <td class="ingdesc">Pepper</td>
+        <td class="ingdesc">Red Onion</td>
+        <td class="ingdesc">Red Pepper</td>
+        <td class="ingdesc">Salt</td>
+      </tr>
+
+      <tr>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">2 Badges</td>
+        <td class="required">3 Badges</td>
+        <td class="required">No Req.</td>
+      </tr>
+
+      <tr>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/tomato.png" alt="tomato"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/tofu.png" alt="tofu"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/vinegar.png" alt="vinegar"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/wasabi.png" alt="wasabi"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/watercress.png" alt="watercress"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/cream.png" alt="whipped cream"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/yellowpep.png" alt="yellow pepper"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/yogurt.png" alt="yogurt"/></td>
+      </tr>
+
+      <tr>
+        <td class="ingdesc">Tomato</td>
+        <td class="ingdesc">*Tofu</td>
+        <td class="ingdesc">Vinegar</td>
+        <td class="ingdesc">*Wasabi</td>
+        <td class="ingdesc">Watercress</td>
+        <td class="ingdesc">Whipped Cream</td>
+        <td class="ingdesc">Yellow Pepper</td>
+        <td class="ingdesc">Yogurt</td>
+      </tr>
+
+      <tr>
+        <td class="required">No Req.</td>
+        <td class="required">5 Badges</td>
+        <td class="required">No Req.</td>
+        <td class="required">5 Badges</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">3 Badges</td>
+        <td class="required">No Req.</td>
+      </tr>
+    </thead>
+    </table>
+
+    <table id="ingredienttable">
+      <caption class="cioso">Deli Cioso</caption>
+    <thead>
+    <tr>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/avacado.png" alt="avacado"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/bacon.png" alt="bacon"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/basil.png" alt="basil"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/burger.png" alt="hamburger"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/chilli.png" alt="chili sauce"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/chorizo.png" alt="chorizo"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/cucumber.png" alt="cucumber"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/egg.png" alt="egg"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/greenpep.png" alt="green pepper"/></td>
+    </tr>
+
+    <tr>
+      <td class="ingdesc">Avacado</td>
+      <td class="ingdesc">*Bacon</td>
+      <td class="ingdesc">Basil</td>
+      <td class="ingdesc">*Hamburger</td>
+      <td class="ingdesc">Chili Sauce</td>
+      <td class="ingdesc">*Chorizo</td>
+      <td class="ingdesc">Cucumber</td>
+      <td class="ingdesc">*Egg</td>
+      <td class="ingdesc">Green Pepper</td>
+    </tr>
+
+    <tr>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">1 Badge</td>
+      <td class="required">No Req.</td>
+      <td class="required">3 Badges</td>
+    </tr>
+
+    <tr>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/filletfried.png" alt="Fried Fillet"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/herbsausage.png" alt="herbed sausage"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/potatosalad.png" alt="potato Salad"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/tortilla.png" alt="potato tortilla"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/prosciutto.png" alt="prosciutto"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/redonion.png" alt="red onion"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/redpep.png" alt="red pepper"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/fillet.png" alt="smoked fillet"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/vinegar.png" alt="vinegar"/></td>
+      
+    </tr>
+
+    <tr>
+      <td class="ingdesc">*Fried Fillet</td>
+      <td class="ingdesc">Herbed Sausage</td>
+      <td class="ingdesc">*Potato Salad</td>
+      <td class="ingdesc">*Potato Tortilla</td>
+      <td class="ingdesc">*Prosciutto</td>
+      <td class="ingdesc">Red Onion</td>
+      <td class="ingdesc">Red Pepper</td>
+      <td class="ingdesc">*Smoked Fillet</td>
+      <td class="ingdesc">Vinegar</td>
+    </tr>
+
+    <tr>
+      <td class="required">4 Badges</td>
+      <td class="required">6 Badges</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">2 Badges</td>
+      <td class="required">3 Badges</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+    </tr>
+
+    <tr>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/watercress.png" alt="watercress"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/yellowpep.png" alt="yellow pepper"/></td>
+    </tr>
+
+    <tr>
+      <td class="ingdesc">Watercress</td>
+      <td class="ingdesc">Yellow Pepper</td>
+    </tr>
+
+    <tr>
+      <td class="required">No Req.</td>
+      <td class="required">3 Badges</td>
+    </tr>
+  </thead>
+    </table>
+
+    <table id="ingredienttable">
+      <caption class="cans">Sure Cans</caption>
+    <thead>
+    <tr>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/apple.png" alt="apple"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/banana.png" alt="banana"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/cherrytomato.png" alt="cherry tomato"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/jalapeno.png" alt="jalapeno"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/kiwi.png" alt="kiwi"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/noodles.png" alt="noodles"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/pickle.png" alt="pickle"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/pineapple.png" alt="pinneapple"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/rice.png" alt="rice"/></td>
+    </tr>
+
+    <tr>
+      <td class="ingdesc">*Apple</td>
+      <td class="ingdesc">*Banana</td>
+      <td class="ingdesc">Cherry Tomato</td>
+      <td class="ingdesc">*Jalapeno</td>
+      <td class="ingdesc">*Kiwi</td>
+      <td class="ingdesc">*Noodles</td>
+      <td class="ingdesc">Pickle</td>
+      <td class="ingdesc">*Pinneapple</td>
+      <td class="ingdesc">*Rice</td>
+    </tr>
+
+    <tr>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">1 Badge</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">5 Badges</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">5 Badges</td>
+    </tr>
+
+    <tr>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/tomato.png" alt="tomato"/></td>      
+    </tr>
+
+    <tr>
+      <td class="ingdesc">Tomato</td>
+    </tr>
+
+    <tr>
+      <td class="required">No Req.</td>
+    </tr>
+  </thead>
+    </table>
+
+    <p>A <b>*</b> symbol indicates this is a store exclusive and can't be purchased at other locations.</p>
+    <p>Although Herba Mystica are considered sandwich ingredients, they're more complicated to obtain. I've written seperate guides for completing Pokémon Raids to obtain them seperated by difficulty.</p>
+    <p><a href="https://taylorib.github.io/five-star-raids/">Five Star Raids</a></p>
+    <p><a href="https://taylorib.github.io/six-star-raids/">Six Star Raids</a></p>
+    
+
+    <hr class="dividerclear"/>
+    <hr />
+    <table class="herba">
+      <tr class="herbam">
+        <td><img width="100%" class="herba-sprite" id="herba_sprite" src="./assets/Bitter_Herba_Mystica.png" alt="sprite of bitter herba mystica"></img></td>
+        <td><img width="100%" class="herba-sprite" id="herba_sprite" src="./assets/Salty_Herba_Mystica.png" alt="sprite of salty herba mystica"></img></td>
+        <td><img width="100%" class="herba-sprite" id="herba_sprite" src="./assets/Sour_Herba_Mystica.png" alt="sprite of sour herba mystica"></img></td>
+        <td><img width="100%" class="herba-sprite" id="herba_sprite" src="./assets/Spicy_Herba_Mystica.png" alt="sprite of spicy herba mystica"></img></td>
+        <td><img width="100%" class="herba-sprite" id="herba_sprite" src="./assets/Sweet_Herba_Mystica.png" alt="sprite of sweet herba mystica"></img></td>
+    </tr>
+  </table> 
+  </section>
+  </main>
+  </container>
+
+  <container class="mobileonly">
+    <main id="main-mobile">
+    <h1>Herba Mystica and Sandwich Powers</h1>
+
+    <h2>Herba Mystica</h2>
+    <hr/>
+
+    <section>
+    <p>Herba Mystica is a type of rare ingredient that can be added to a sandwich while picnicing in Pokémon Scarlet and Violet. What makes these ingredients so rare is that they can only be obtained by getting them as rewards for completing 5, 6, and 7 star Tera Raid Battles.</p> 
+    <p>Additionally, you are not guaranteed an Herba Mystica as a reward for completing a raid and the drop rate is pretty low. The following guide will teach you how to farm Herba Mystica most efficiently.</p>
+    </section>
+
+    <section>
+    <h2>Sandwiches</h2>
+    <hr/>
+    <p>Sandwiches are craftable items in Pokémon Scarlet and Violet that, upon consumption, grant the player "Meal Powers" to increase the likelyhood of types of encounters when roaming Paldea.</p>
+    <p><b>There are currently 9 possible Meal Powers to obtain:</b></p>
+    
+      <table class="table3">
+        <thead>
+          <tr width="40%">
+            <td class="li-summary2"><b>Catching Power :</b></td>
+            <td class="li-summary2"><b>Exp. Point Power :</b></td>
+          </tr>
+          <tr width="40%">
+            <td class="li-summary2">Increases the catch rate in battle</td>
+            <td class="li-summary2">Increases the exp. for defeating a wild Pokémon</td>
+          </tr>
+          <tr width="40%">
+            <td class="li-summary3">
+              <p class="tablep"><b>Level 1 :</b> +10% Chance</p>
+              <p class="tablep"><b>Level 2 :</b> +25% Chance</p>
+              <p class="tablep"><b>Level 3 :</b> +100% Chance</p>
+          </td>
+            <td class="li-summary3">
+              <p class="tablep"><b>Level 1 :</b> 10% Increase</p>
+              <p class="tablep"><b>Level 2 :</b> 30% Increase</p>
+              <p class="tablep"><b>Level 3 :</b> 50% Increase</p>
+          </td>  
+          </tr>
+      </thead>
+    </table>
+
+    <p><b>Additional Notes on Catching Power:</b></p>
+    <p>Catching Power adds an increased catch chance to catch a Pokémon. Please note that different balls and different pokemon have <a target="_blank" href="https://shinyhunter.club/tools/catch-calculator">different catch rates</a>.
+    </p>
+    
+      <table class="table3">
+        <thead>
+          <tr width="30%">
+            <td class="li-summary2"><b>Hummungo Power :</b></td>
+            <td class="li-summary2"><b>Teensy Power :</b></td>
+          </tr>
+          <tr width="30%">
+            <td class="li-summary2">Increases the chance of spawning large pokémon</td>
+            <td class="li-summary2">Increases the chance of spawning small pokémon</td>
+          </tr>
+          <tr width="30%">
+            <td class="li-summary3">
+              <p class="tablep"><b>Level 1 :</b> Size 128-255</p>
+              <p class="tablep"><b>Level 2 :</b> Size 160-255</p>
+              <p class="tablep"><b>Level 3 :</b> Size 192-255</p>
+            </td>
+            <td class="li-summary3">
+              <p class="tablep"><b>Level 1 :</b> Size 0-127</p>
+              <p class="tablep"><b>Level 2 :</b> Size 0-95</p>
+              <p class="tablep"><b>Level 3 :</b> Size 0-63</p>
+            </td>
+          </tr>
+      </thead>
+    </table>
+
+    <p><b>Additional Notes on Hummungo and Teensy Power:</b></p>
+    <p>Hummungo and Teensy Power chances are based on a set of data that dictates the minimum and maximum size of a pokémon. The data range for any wild encounter is naturally 0-255 with a random chance of spawning somewhere in this data range. A sandwich with these powers decreases the set range of finding a pokémon towards either end of the data set.</p>
+    <p>Other than the cosmetic effect of having a larger or smaller pokémon, there are also titles, or marks, that can be unlocked for getting the smallest value for a pokémon size and the largest value of a pokémon size.</p>
+    
+    <table class="table3">
+      <thead>
+        <tr width="30%">
+          <td class="li-summary2"><b>Raid Power :</b></td>
+          <td class="li-summary2"><b>Sparkling Power :</b></td>
+        </tr>
+        <tr width="30%">
+          <td class="li-summary2">Increases the drop rewards from Tera Raids</td>
+          <td class="li-summary2">Increases the chance of a shiny pokémon spawning</td>
+        </tr>
+        <tr width="30%">
+          <td class="li-summary3">
+            <p class="tablep"><b>Level 1 :</b> +1 Item</p>
+            <p class="tablep"><b>Level 2 :</b> +2 Items</p>
+            <p class="tablep"><b>Level 3 :</b> +3 Items</p>
+        </td>
+        <td class="li-summary3">
+          <p class="tablep"><b>Level 1 :</b> +1 Shiny Roll</p>
+          <p class="tablep"><b>Level 2 :</b> +2 Shiny Roll</p>
+          <p class="tablep"><b>Level 3 :</b> +3 Shiny Roll</p>
+        </td>
+        </tr>
+    </thead>
+  </table>
+
+  <p><b>Additional Notes on Raid and Sparkling Power:</b></p>
+    <p>Raid Power item drops can <i>include</i> herba mystica but are <i>not guaranteed</i> to be herba mystica.</p>
+    <p>Sparking power rolls can be confusing if you don't understand how shinys spawn in the overworld. The basic rates for a shiny at full odds are 1 in 4096.</p> 
+    <p>When a pokémon spawns near you an invisible wheel spins and if the needle lands on the shiny spot, the pokémon is shiny. To increase your odds, rather than removing the number of non-shiny spots on the wheel, the wheel stays at 4096 odds but respins, based on any boosts you have.</p>
+    <p>So for example, if you have a level 3 shiny sandwhich, it will respin, or reroll, the wheel 3 times giving you 3 additional chances for the spawn to be shiny, taking your odds to 1 in 1024.</p>
+
+
+
+    <table id="table4">
+    <thead>
+      <tr>
+      <td class="imagerow" width="100%"><img class="titlepic" border-radius="40px" width="100%" src="./assets/title_location.jpg"></td>
+      </tr>
+      <tr>
+      <td class="imagerow" >The location (in Mesagoza) that you obtain Size Titles</td>
+      </tr>
+    </thead>
+    </table>
+
+    <table id="table4">
+      <thead>
+        <tr>
+        <td class="imagerow" width="100%"><img class="titlepic" border-radius="40px" width="100%" src="./assets/npc.jpg"></td>
+        </tr>
+        <tr>
+        <td class="imagerow" >The NPC that gives out Size Titles</td>
+        </tr>
+      </thead>
+      </table>
+
+    
+
+    <table class="table3">
+      <thead>
+        <tr>
+          <td width="40%" class="li-summary2"><b>Title Power :</b>
+          <p>Increases the chance of a wild Pokémon having a mark</p>
+          </td> 
+          <td width="40%" class="li-summary2"><b>Encounter Power :</b>
+            <p>Increases the spawn rate for a type of wild pokémon</p>
+            </td>
+        </tr>
+    </thead>
+  </table>
+
+  <table class="table3">
+    <thead>
+      <tr>
+        <td width="100%" class="li-summary2"><b>Egg Power :</b>
+          <p>Increases spawn rate of Pokémon Eggs while picnicing and increases hatch rate for eggs outside of picnics</p>
+        </td>
+      </tr>
+  </thead>
+</table>
+
+  <p><b>Additional Notes on Egg Power:</b></p>
+  <p>You can increase the hate rate for eggs even more by having a lead Pokémon in your party with the ability: Flame Body.</p>
+  <p>Flame Body reduces the steps required to hatch a pokemon by 50%.</p>
+  <p>Pokémon that can have Flame Body in Gen 9 are: Larvesta/Volcarona, Fletchinder/Talonflame, Carkol/Coalossal, and Charcadet.</p>
+  
+</section>
+
+<section>
+<h2 id="ingredients2">Sandwich Ingredients</h2>
+<hr/>
+  <p>There are four different Stores that sell ingredients for sandwiches and they're located all over Paldea. There is one city, luckily, where you can find all of them: Levincia.</p>
+  <p>If you fly to the northern Pokémon Center your closest stores are Sure Cans and Aquiesta Supermarket. If you fly to the southern Pokémon Center you'll find Artisian Bakery and Deli Cioso.</p>
+  <p>Now that you know where to find the stores, you'll need to know where to get specific ingredients that can be used to craft the right sandwhich. The following guide will explain where to get all non-cosmetic sandwich ingredients and how to unlock them.</p>
+  <p>Please note that certain ingredients are only unlocked at these locations after a number of gym badges have been obtained.</p>
+
+  <table id="ingredienttable">
+      <caption class="artisan">Artisan Bakery</caption>
+      <thead>
+      <tr>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/butter.png" alt="butter"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/cheese.png" alt="cheese"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/creamcheese.png" alt="cream cheese"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/ham.png" alt="ham"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/jam.png" alt="jam"/></td>
+      </tr>
         
-    </main>
+        <tr>
+          <td class="ingdesc">Butter</td>
+          <td class="ingdesc">Cheese</td>
+          <td class="ingdesc">Cream Cheese</td>
+          <td class="ingdesc">Ham</td>
+          <td class="ingdesc">Jam</td>
+        </tr>
+        
+        <tr>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+        </tr>  
+
+      <tr>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/ketchup.png" alt="Ketchup"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/lettuce.png" alt="lettuce"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/marmalade.png" alt="marmalade"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/mayo.png" alt="Mayonaise"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/mustard.png" alt="mustard"/></td>
+      </tr>
+
+      <tr>
+        <td class="ingdesc">Ketchup</td>
+        <td class="ingdesc">Lettuce</td>
+        <td class="ingdesc">Marmalade</td>
+        <td class="ingdesc">Mayo</td>
+        <td class="ingdesc">Mustard</td>
+      </tr>
+
+      <tr>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+      </tr>
+
+      <tr>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/oliveoil.png" alt="olive oil"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/onion.png" alt="onion"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/peanut.png" alt="peanut butter"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/pepper.png" alt="pepper"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/salt.png" alt="salt"/></td>
+      </tr>
+        
+        <tr>
+          <td class="ingdesc">Olive Oil</td>
+          <td class="ingdesc">Onion</td>
+          <td class="ingdesc">Peanut Butter</td>
+          <td class="ingdesc">Pepper</td>
+          <td class="ingdesc">Salt</td>
+        </tr>
+
+          <tr>
+            <td class="required">No Req.</td>
+            <td class="required">No Req.</td>
+            <td class="required">No Req.</td>
+            <td class="required">No Req.</td>
+            <td class="required">No Req.</td>
+          </tr>
+      
+        
+      <tr>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/cream.png" alt="whipped cream"/></td>
+        <td><img class="ingredient" width="90%" src="./assets/ingredients/yogurt.png" alt="yogurt"/></td>
+      </tr>
+
+      <tr>
+        <td class="ingdesc">Whipped Cream</td>
+        <td class="ingdesc">Yogurt</td>
+      </tr>
+
+      <tr>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+      </tr>
+    </thead>
+  </table>
+
+  <table id="ingredienttable">
+    <caption class="aquiesta">Aquiesta Supermarket</caption>
+    <thead>
+    <tr>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/avacado.png" alt="avacado"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/basil.png" alt="basil"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/butter.png" alt="butter"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/cherrytomato.png" alt="cherry tomato"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/cheese.png" alt="cheese"/></td>
+    </tr>
+    
+    <tr>
+      <td class="ingdesc">Avacado</td>
+      <td class="ingdesc">Basil</td>
+      <td class="ingdesc">Butter</td>
+      <td class="ingdesc">Cherry Tomato</td>
+      <td class="ingdesc">Cheese</td>
+    </tr>
+
+    <tr>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">1 Badge</td>
+      <td class="required">No Req.</td>
+    </tr>  
+      
+    <tr>   
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/chilli.png" alt="chili sauce"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/creamcheese.png" alt="cream cheese"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/cucumber.png" alt="cucumber"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/currypowder.png" alt="curry powder"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/greenpep.png" alt="Green Pepper"/></td>
+    </tr>
+
+    <tr> 
+      <td class="ingdesc">Chili Sauce</td>
+      <td class="ingdesc">Cream Cheese</td>
+      <td class="ingdesc">Cucumber</td>
+      <td class="ingdesc">*Curry Powder</td>
+      <td class="ingdesc">Green Pepper</td>
+    </tr>
+
+    <tr>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">1 Badge</td>
+      <td class="required">7 Badges</td>
+      <td class="required">3 Badges</td>
+    </tr>
+
+    <tr>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/ham.png" alt="Ham"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/horseradish.png" alt="Horse Radish"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/jam.png" alt="Jam"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/ketchup.png" alt="ketchup"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/klawfstick.png" alt="Klawf stick"/></td>
+    </tr>
+    
+      <tr>
+        <td class="ingdesc">Ham</td>
+        <td class="ingdesc">*Horse Radish</td>
+        <td class="ingdesc">Jam</td>
+        <td class="ingdesc">Ketchup</td>
+        <td class="ingdesc">*Klawf Stick</td>
+      </tr>
+
+
+        <tr>
+          <td class="required">No Req.</td>
+          <td class="required">6 Badges</td>
+          <td class="required">No Req.</td>
+          <td class="required">No Req.</td>
+          <td class="required">8 Badges</td>
+        </tr>
+      
+    <tr>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/lettuce.png" alt="lettuce"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/marmalade.png" alt="marmalade"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/mayo.png" alt="Mayonaise"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/mustard.png" alt="mustard"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/oliveoil.png" alt="oliveoil"/></td>
+    </tr>
+
+    <tr>
+      <td class="ingdesc">Lettuce</td>
+      <td class="ingdesc">Marmalade</td>
+      <td class="ingdesc">Mayonaise</td>
+      <td class="ingdesc">Mustard</td>
+      <td class="ingdesc">Olive Oil</td>
+    </tr>
+
+    <tr>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+    </tr>
+
+    <tr>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/onion.png" alt="onion"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/pickle.png" alt="pickle"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/peanut.png" alt="peanut butter"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/pepper.png" alt="pepper"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/redonion.png" alt="red onion"/></td>
+    </tr>
+
+      <tr>
+        <td class="ingdesc">Onion</td>
+        <td class="ingdesc">Pickle</td>
+        <td class="ingdesc">Peanut Butter</td>
+        <td class="ingdesc">Pepper</td>
+        <td class="ingdesc">Red Onion</td>
+      </tr>
+
+      <tr>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">2 Badges</td>
+      </tr>
+
+
+    <tr> 
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/redpep.png" alt="red pepper"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/salt.png" alt="salt"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/tomato.png" alt="tomato"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/tofu.png" alt="tofu"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/vinegar.png" alt="vinegar"/></td>
+    </tr>
+
+    <tr>  
+      <td class="ingdesc">Red Pepper</td>
+      <td class="ingdesc">Salt</td>
+      <td class="ingdesc">Tomato</td>
+      <td class="ingdesc">*Tofu</td>
+      <td class="ingdesc">Vinegar</td>
+    </tr>
+
+    <tr> 
+      <td class="required">3 Badges</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">5 Badges</td>
+      <td class="required">No Req.</td>
+    </tr>
+
+    <tr>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/wasabi.png" alt="wasabi"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/watercress.png" alt="watercress"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/cream.png" alt="whipped cream"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/yellowpep.png" alt="yellow pepper"/></td>
+      <td><img class="ingredient" width="90%" src="./assets/ingredients/yogurt.png" alt="yogurt"/></td>
+    </tr>
+
+    <tr>
+      <td class="ingdesc">*Wasabi</td>
+      <td class="ingdesc">Watercress</td>
+      <td class="ingdesc">Whipped Cream</td>
+      <td class="ingdesc">Yellow Pepper</td>
+      <td class="ingdesc">Yogurt</td>
+    </tr>
+
+    <tr>
+      <td class="required">5 Badges</td>
+      <td class="required">No Req.</td>
+      <td class="required">No Req.</td>
+      <td class="required">3 Badges</td>
+      <td class="required">No Req.</td>
+    </tr>
+  </thead>
+  </table>
+
+  <table id="ingredienttable">
+    <caption class="cioso">Deli Cioso</caption>
+  <thead>
+  <tr>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/avacado.png" alt="avacado"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/bacon.png" alt="bacon"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/basil.png" alt="basil"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/burger.png" alt="hamburger"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/chilli.png" alt="chili sauce"/></td>
+  </tr>
+
+    <tr>
+      <td class="ingdesc">Avacado</td>
+      <td class="ingdesc">*Bacon</td>
+      <td class="ingdesc">Basil</td>
+      <td class="ingdesc">*Hamburger</td>
+      <td class="ingdesc">Chili Sauce</td>
+    </tr>
+
+      <tr>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+      </tr>
+
+  <tr>  
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/chorizo.png" alt="chorizo"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/cucumber.png" alt="cucumber"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/egg.png" alt="egg"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/greenpep.png" alt="green pepper"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/filletfried.png" alt="Fried Fillet"/></td>
+  </tr>
+
+  <tr>  
+    <td class="ingdesc">*Chorizo</td>
+    <td class="ingdesc">Cucumber</td>
+    <td class="ingdesc">*Egg</td>
+    <td class="ingdesc">Green Pepper</td>
+    <td class="ingdesc">*Fried Fillet</td>
+  </tr>
+
+  <tr>  
+    <td class="required">No Req.</td>
+    <td class="required">1 Badge</td>
+    <td class="required">No Req.</td>
+    <td class="required">3 Badges</td>
+    <td class="required">4 Badges</td>
+  </tr>
+
+  <tr>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/herbsausage.png" alt="herbed sausage"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/potatosalad.png" alt="potato Salad"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/tortilla.png" alt="potato tortilla"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/prosciutto.png" alt="prosciutto"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/redonion.png" alt="red onion"/></td>
+  </tr>
+
+    <tr>
+      <td class="ingdesc">*Herbed Sausage</td>
+      <td class="ingdesc">*Potato Salad</td>
+      <td class="ingdesc">*Potato Tortilla</td>
+      <td class="ingdesc">*Prosciutto</td>
+      <td class="ingdesc">Red Onion</td>
+    </tr>
+
+    
+      <tr>
+        <td class="required">6 Badges</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">No Req.</td>
+        <td class="required">2 Badges</td>
+      </tr>
+    
+  <tr>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/redpep.png" alt="red pepper"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/fillet.png" alt="smoked fillet"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/vinegar.png" alt="vinegar"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/watercress.png" alt="watercress"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/yellowpep.png" alt="yellow pepper"/></td>
+  </tr>
+
+  <tr>
+    <td class="ingdesc">Red Pepper</td>
+    <td class="ingdesc">*Smoked Fillet</td>
+    <td class="ingdesc">Vinegar</td>
+    <td class="ingdesc">Watercress</td>
+    <td class="ingdesc">Yellow Pepper</td>
+  </tr>
+  
+  <tr>
+    <td class="required">3 Badges</td>
+    <td class="required">No Req.</td>
+    <td class="required">No Req.</td>
+    <td class="required">No Req.</td>
+    <td class="required">3 Badges</td>
+  </tr>
+</thead>
+  </table>
+
+  <table id="ingredienttable">
+    <caption class="cans">Sure Cans</caption>
+  <thead>
+  <tr>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/apple.png" alt="apple"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/banana.png" alt="banana"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/cherrytomato.png" alt="cherry tomato"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/jalapeno.png" alt="jalapeno"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/kiwi.png" alt="kiwi"/></td>
+  </tr> 
+
+  <tr>
+    <td class="ingdesc">*Apple</td>
+    <td class="ingdesc">*Banana</td>
+    <td class="ingdesc">Cherry Tomato</td>
+    <td class="ingdesc">*Jalapeno</td>
+    <td class="ingdesc">*Kiwi</td>
+  </tr> 
+
+  <tr>
+    <td class="required">No Req.</td>
+    <td class="required">No Req.</td>
+    <td class="required">1 Badge</td>
+    <td class="required">No Req.</td>
+    <td class="required">No Req.</td>
+  </tr>
+  
+  <tr> 
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/noodles.png" alt="noodles"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/pickle.png" alt="pickle"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/pineapple.png" alt="pinneapple"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/rice.png" alt="rice"/></td>
+    <td><img class="ingredient" width="90%" src="./assets/ingredients/tomato.png" alt="tomato"/></td>
+  </tr>
+
+  <tr>  
+    <td class="ingdesc">*Noodles</td>
+    <td class="ingdesc">Pickle</td>
+    <td class="ingdesc">*Pinneapple</td>
+    <td class="ingdesc">*Rice</td>
+    <td class="ingdesc">Tomato</td>
+  </tr>
+
+  <tr> 
+    <td class="required">5 Badges</td>
+    <td class="required">No Req.</td>
+    <td class="required">No Req.</td>
+    <td class="required">5 Badges</td>
+    <td class="required">No Req.</td>
+  </tr>
+</thead>
+  </table>
+
+  <p>A <b>*</b> symbol indicates this is a store exclusive and can't be purchased at other locations.</p>
+  <p>Although Herba Mystica are considered sandwich ingredients, they're more complicated to obtain. I've written seperate guides for completing Pokémon Raids to obtain them seperated by difficulty.</p>
+  <p><a href="https://taylorib.github.io/five-star-raids/">Five Star Raids</a></p>
+  <p><a href="https://taylorib.github.io/six-star-raids/">Six Star Raids</a></p>
+  </section>
+  </main>
+  </container>
 
 
     <footer>
      
       
     </footer>
+
+  </container>
   </body>
 </html>
