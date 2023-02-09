@@ -2,7 +2,7 @@ html,
 body {
   min-width: 290px;
   color: #bfd6b7;
-  font-family: calibri, Arial, sans-serif;
+  font-family: "calibri", Arial, sans-serif;
   line-height: 1.5;
   background-color: #092f12;
   /*background: rgb(25,60,11);
@@ -66,7 +66,6 @@ body {
   line-height: 2;
   text-decoration: none;
   cursor: pointer;
-  
 }
 
 #navtable td{
@@ -407,6 +406,14 @@ figcaption {
 
   .table1, .table2{
     font-size: 0;
+  }
+
+  .ingdesc {
+    font-size: .6em;
+  }
+  
+  .required {
+    font-size: .5em;
   }
 
   .nomobile {
